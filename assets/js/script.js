@@ -18,7 +18,7 @@ var promptPasswordCharTypes = function() {
     "lowercase": confirm("Include lowercase characters?"),
     "uppercase": confirm("Include uppercase characters?"),
     "number": confirm("Include numbers?"),
-    "special": confirm("Include speical characters?")
+    "special": confirm("Include special characters?")
   }
 
   return charSpec;
